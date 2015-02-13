@@ -1,11 +1,23 @@
 {
-  "name": "filepicker",
+  "name": "filepicker-jetpack",
   "version": "0.0.1",
   "description": "Quickly create filepicker in firefox add-ons.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darkowlzz/filepicker-jetpack.git"
+  },
   "scripts": {
     "pretest": "rsync -av --progress ./ jpmTest/filepicker/ --exclude jpmTest;"
   },
+  "keywords": [
+    "firefox",
+    "jetpack",
+    "filepicker",
+    "file",
+    "jpm",
+    "add-on"
+  ],
   "author": "Sunny <indiasuny000@gmail.com> (darkowlzz)",
   "license": "MPL",
   "dependencies": {
