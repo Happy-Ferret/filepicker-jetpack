@@ -1,7 +1,7 @@
 filepicker-jetpack
 ================
 
-Quickly create file picker in firefox add-ons ([jpm](https://github.com/mozilla/jpm) based).
+Quickly create filepicker in firefox add-ons ([jpm](https://github.com/mozilla/jpm) based).
 
 ## To use
 

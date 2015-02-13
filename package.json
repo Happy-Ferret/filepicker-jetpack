@@ -1,7 +1,7 @@
 {
   "name": "filepicker",
   "version": "0.0.1",
-  "description": "Quickly create file picker in firefox add-ons.",
+  "description": "Quickly create filepicker in firefox add-ons.",
   "main": "index.js",
   "scripts": {
     "pretest": "rsync -av --progress ./ jpmTest/filepicker/ --exclude jpmTest;"

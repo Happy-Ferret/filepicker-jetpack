@@ -1,7 +1,5 @@
 var self = require('sdk/self');
 var FilePicker = require('./filepicker/');
 
-var fp = new FilePicker({fileFilter: 'Text File',
-                         fileExtension: '*',
-                         title: 'A File Picker'});
+var fp = new FilePicker();
 console.log(fp.open('data'));

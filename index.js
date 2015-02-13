@@ -30,11 +30,11 @@ var fp = Cc['@mozilla.org/filepicker;1'].createInstance(nsIFilePicker);
 
  */
 function FilePicker (opts) {
-  opts = opts || null;
+  opts = opts || {};
 
-  this.fileFilter = opts.fileFilter;
-  this.fileExtension = opts.fileExtension;
-  this.title = opts.title;
+  this.fileFilter = opts.fileFilter || null;
+  this.fileExtension = opts.fileExtension || null;
+  this.title = opts.title || null;
 }
 
 FilePicker.prototype = {
