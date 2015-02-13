@@ -1,0 +1,17 @@
+{
+  "name": "filepicker",
+  "version": "0.0.1",
+  "description": "Quickly create file picker in firefox add-ons.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rsync -av --progress ./ jpmTest/filepicker/ --exclude jpmTest;"
+  },
+  "author": "Sunny <indiasuny000@gmail.com> (darkowlzz)",
+  "license": "MPL",
+  "dependencies": {
+    "lodash": "^3.2.0"
+  },
+  "devDependencies": {
+    "jpm": "0.0.25"
+  }
+}
