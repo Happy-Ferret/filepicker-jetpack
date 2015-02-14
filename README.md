@@ -33,6 +33,8 @@ Quickly create filepicker in firefox add-ons ([jpm](https://github.com/mozilla/j
 
 #### open(resultType)
 
+Open the filepicker.
+
 `resultType` specifies the type of result to be returned.
 
 `'data'` - would return file content of the selected file.
@@ -43,7 +45,7 @@ Quickly create filepicker in firefox add-ons ([jpm](https://github.com/mozilla/j
 
 Clone the repo and run `npm install` inside the repo to install all the dependencies. Prepare for testing by running `npm test`. `cd` into jpmTest/ and run `jpm run -b /path/to/firefox-nightly`.
 
-Example, in OS X
+Example, on OS X
 
 ```bash
 $ jpm run -b /Applications/Nightly.app
