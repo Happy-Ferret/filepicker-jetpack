@@ -1,6 +1,8 @@
 filepicker-jetpack
 ================
 
+[![NPM](https://nodei.co/npm/filepicker-jetpack.png)](https://nodei.co/npm/filepicker-jetpack/)
+
 Quickly create filepicker in firefox add-ons ([jpm](https://github.com/mozilla/jpm) based).
 
 ## To use
